@@ -225,7 +225,7 @@ section {
 
 #hero h2 {
     font-size: clamp(2.6rem, 5vw, 3.4rem);
-    max-width: 750px;
+    max-width: 800px;
     line-height: 1.1;
 }
 
@@ -405,4 +405,5 @@ footer {
       height: auto;
   }
 }
+
 
