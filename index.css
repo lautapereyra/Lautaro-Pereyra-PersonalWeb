@@ -224,22 +224,22 @@ section {
 }
 
 #hero h2 {
-    font-size: clamp(2.6rem, 5vw, 3.4rem);
+    font-size: clamp(2.8rem, 5.5vw, 3.6rem);
     max-width: 800px;
     line-height: 1.1;
 }
 
 #hero p {
-    max-width: 700px;
-    font-size: clamp(1.15rem, 1.6vw, 1.2rem);
+    max-width: 800px;
+    font-size: clamp(1.25rem, 1.8vw, 1.35rem);
     line-height: 1.4;
     color: white;
-    text-shadow: 0px 0px 30px rgb(0, 0, 0, 1), 0 0 14px rgba(120, 220, 255, 1);
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 1),
+                 0 0 14px rgba(120, 220, 255, 1);
     text-align: center;
     z-index: 3;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: auto;
 }
 
 .sobre-mi-content {
@@ -405,5 +405,6 @@ footer {
       height: auto;
   }
 }
+
 
 
